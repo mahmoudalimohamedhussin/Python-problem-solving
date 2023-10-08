@@ -1,0 +1,6 @@
+import math
+def century(year):
+    z=year/100
+    x=math.ceil(z)
+    return x
+print(century(2000))

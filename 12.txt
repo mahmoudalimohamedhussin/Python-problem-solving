@@ -1,0 +1,6 @@
+def repeat_str(repeat,string):
+    r=repeat*string
+    return r
+
+
+print(repeat_str(6,'Hello'))

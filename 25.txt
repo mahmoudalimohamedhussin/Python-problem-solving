@@ -1,0 +1,6 @@
+import math
+def mango(quantity, price):
+    a1=(quantity - math.floor(quantity / 3 ))* price
+    return a1
+
+print(mango(2,3))

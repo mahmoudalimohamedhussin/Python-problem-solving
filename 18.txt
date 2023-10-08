@@ -1,0 +1,5 @@
+def remove_exclamation_marks(s):
+    z=s.replace("!","")
+    return z
+
+print(remove_exclamation_marks("Hello World!"))
