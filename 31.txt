@@ -1,0 +1,11 @@
+def people_with_age_drink(old):
+    if old < 14:
+        return "drink toddy"
+    elif old < 18:
+        return "drink coke"
+    elif old < 21:
+        return "drink beer"
+    elif old >=21:
+        return "drink whisky"
+
+print(people_with_age_drink(30))

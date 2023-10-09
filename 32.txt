@@ -1,0 +1,9 @@
+def hero(bullets, dragons):
+    bu=2
+    if bu*dragons <= bullets:
+        return True
+    else:
+        return False
+
+
+print(hero(10,5))
